@@ -31,7 +31,7 @@ git clone https://github.com/VALIXR-Neural-Rendering/nn-unity.git
 
 3. Select the URP Renderer Asset at `Settings -> URP-HighFidelity-Renderer` and select the `Neural PP Feature` called Neural Post Processing to enable the neural rendering post-processing effects.
 
-<img width="40%" src="./Docs/nn_feature.png">
+<img width="40%" src="./Docs/nn_feature.PNG">
 
 4. Enter the game mode and enjoy! In the game mode, control the scene with mouse and Up/Down/Left/Right keys.
 
