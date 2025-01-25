@@ -1,12 +1,12 @@
-Neural Rendering in Unity
-==========================
+Neural Rendering of Point Clouds in Unity
+==========================================
 
 <img width="100%" src="./Docs/nn_unity_demo.png">
 
 This Unity sample project demonstrates the following 2 features:
 - Modifying Unity's Universal Rendering Pipeline (URP) for creating custom passes for neural rendering
 - Implementing and running neural network (NN) inference using Sentis
-- Applying neural rendering based post-processing effects using Unity's Visual Effect Graph (VFX Graph)
+- Applying neural rendering based post-processing effects on particles (point cloud) which are designed with Unity's Visual Effect Graph (VFX Graph)
 
 The neural rendering framework used here is based on [NARVis](https://arxiv.org/abs/2407.19097) and more documentation could be found in the Neural Rendering for VALIXR [report](#).
 
