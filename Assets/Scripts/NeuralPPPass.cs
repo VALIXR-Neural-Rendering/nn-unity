@@ -65,8 +65,8 @@ class NeuralPPPass : ScriptableRenderPass
                         Screen.width, Screen.height,
                         channels,
                         settings.enableCustomBuffer);
+            reInitNNEngine = settings.enableCustomBuffer;
         }
-        reInitNNEngine = settings.enableCustomBuffer;
 
         CommandBuffer cmd = CommandBufferPool.Get();
         using (new ProfilingScope(cmd, _profilingSampler))

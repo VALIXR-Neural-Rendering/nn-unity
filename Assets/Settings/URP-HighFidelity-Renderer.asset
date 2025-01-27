@@ -109,7 +109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dde3c44bceb76f4b957d0c544ac315c, type: 3}
   m_Name: Neural Post Processing
   m_EditorClassIdentifier: 
-  m_Active: 0
+  m_Active: 1
   settings:
     showInSceneView: 1
     _event: 350
